@@ -1,0 +1,8 @@
+.env
+.google_drive_token.json
+*.pem
+*service-account*.json
+*oauth-client*.json
+__pycache__/
+.chroma/
+.venv/

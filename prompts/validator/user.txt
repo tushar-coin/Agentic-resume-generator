@@ -1,0 +1,20 @@
+Evaluate if the candidate resume matches the job requirements.
+
+Return ONLY valid JSON.
+
+---
+
+Job Description:
+{job_data}
+
+---
+
+Candidate Resume:
+{resume_data}
+
+---
+
+Reminder:
+- Reject ONLY if critical requirements are missing
+- Do NOT reject for minor skill gaps
+- Output ONLY JSON

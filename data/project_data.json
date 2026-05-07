@@ -1,0 +1,94 @@
+{
+  "projects": [
+    {
+      "id": "backend_scaling_system",
+      "name": "Distributed Task Processing System",
+      "latex_name": "Distributed Task Processing System",
+      "tech": ["Go", "Kafka", "Redis", "PostgreSQL"],
+      "latex_tech": ["Go", "Kafka", "Redis", "PostgreSQL"],
+      "tags": ["backend", "distributed", "scalability"],
+      "date": "Jan 2023 – Mar 2023",
+      "latex_date": "Jan 2023 – Mar 2023",
+      "bullets": [
+        "Built distributed task queue system handling 100K+ jobs/day using Kafka and Redis",
+        "Optimized worker scheduling reducing task latency by 40%"
+      ],
+      "latex_bullets": [
+        "Built distributed task queue system handling 100K+ jobs/day using Kafka and Redis",
+        "Optimized worker scheduling reducing task latency by 40%"
+      ]
+    },
+    {
+      "id": "llm_cli_tool",
+      "name": "LLM-Powered CLI Automation Tool",
+      "latex_name": "LLM-Powered CLI Automation Tool",
+      "tech": ["Rust", "LLM", "CLI"],
+      "latex_tech": ["Rust", "LLM", "CLI"],
+      "tags": ["infra", "automation", "ai"],
+      "date": "Feb 2024 – Apr 2024",
+      "latex_date": "Feb 2024 – Apr 2024",
+      "bullets": [
+        "Developed CLI tool using Rust to auto-generate boilerplate code using LLM APIs",
+        "Reduced developer setup time by 60% across internal workflows"
+      ],
+      "latex_bullets": [
+        "Developed CLI tool using Rust to auto-generate boilerplate code using LLM APIs",
+        "Reduced developer setup time by 60% across internal workflows"
+      ]
+    },
+    {
+      "id": "fullstack_next_app",
+      "name": "High-Performance Web Platform",
+      "latex_name": "High-Performance Web Platform",
+      "tech": ["(Android/iOS)","Python", "Objective-C", "Swift", "C#", "JavaScript","SQL"],
+      "latex_tech": ["Next.js", "React", "Node.js", "MongoDB"],
+      "tags": ["frontend", "fullstack", "web"],
+      "date": "May 2022 – Aug 2022",
+      "latex_date": "May 2022 – Aug 2022",
+      "bullets": [
+        "Built SSR-enabled platform improving initial page load performance by 35%",
+        "Designed reusable component system used across 20+ pages"
+      ],
+      "latex_bullets": [
+        "Built SSR-enabled platform improving initial page load performance by 35%",
+        "Designed reusable component system used across 20+ pages"
+      ]
+    },
+    {
+      "id": "experience_platform",
+      "name": "Experience Sharing Platform",
+      "latex_name": "Experience Sharing Platform",
+      "tech": ["Node.js", "MongoDB", "EJS"],
+      "latex_tech": ["Node.js", "MongoDB", "EJS"],
+      "tags": ["backend", "web"],
+      "date": "May 2022 – June 2022",
+      "latex_date": "May 2022 – June 2022",
+      "bullets": [
+        "Built platform for sharing interview experiences with 200+ daily users",
+        "Implemented dynamic content rendering and user contribution system"
+      ],
+      "latex_bullets": [
+        "Built platform for sharing interview experiences with 200+ daily users",
+        "Implemented dynamic content rendering and user contribution system"
+      ]
+    },
+    {
+      "id": "ci_cd_pipeline",
+      "name": "CI/CD Automation Pipeline",
+      "latex_name": "CI/CD Automation Pipeline",
+      "tech": ["GitHub Actions", "Docker", "AWS"],
+      "latex_tech": ["GitHub Actions", "Docker", "AWS"],
+      "tags": ["devops", "infra"],
+      "date": "Dec 2023 – Jan 2024",
+      "latex_date": "Dec 2023 – Jan 2024",
+      "bullets": [
+        "Designed CI/CD pipeline reducing deployment time by 50%",
+        "Automated testing and deployment across multiple environments"
+      ],
+      "latex_bullets": [
+        "Designed CI/CD pipeline reducing deployment time by 50%",
+        "Automated testing and deployment across multiple environments"
+      ]
+    }
+  ]
+}

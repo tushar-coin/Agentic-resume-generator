@@ -1,0 +1,41 @@
+Target job data:
+{job_data}
+
+Candidate profile (for context only):
+{candidate_profile}
+
+Available projects to choose from:
+{projects_json}
+
+Validator output (for guidance):
+{validation}
+
+
+---
+
+TASK:
+1. Select EXACTLY ONE project_id from the available projects
+2. Extract programming languages from job requirements
+3. Extract technologies/frameworks from job requirements
+4. Return ONLY JSON
+
+OUTPUT FORMAT:
+Return ONLY this JSON structure (nothing else):
+{{
+  "project_id": "the_selected_project_id",
+  "languages": ["lang1", "lang2"],
+  "technologies": ["tech1", "tech2"]
+}}
+
+DECISION CRITERIA:
+- Project selection: Best technology overlap with job data
+- Languages: ONLY programming languages from job description
+- Technologies: Frameworks, databases, cloud services, tools mentioned
+
+VALIDATION:
+- project_id MUST exist in provided project list
+- languages array MUST NOT be empty
+- technologies array MUST NOT be empty
+- NO soft skills
+- NO generic terms
+- NO explanations or extra text

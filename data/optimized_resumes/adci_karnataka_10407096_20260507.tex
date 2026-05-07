@@ -1,0 +1,209 @@
+%-------------------------
+% Resume in Latex
+% Author : Tushar Bairi
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\vspace{-10pt}
+\vspace{-5pt}
+\begin{center}
+    \textbf{\Huge \scshape Tushar Bairi} \\ \vspace{1pt}
+    \small +91 9267990207 $|$ \href{mailto:tusharbairi75@gmail.com}{\underline{Mail}} $|$ 
+    \href{https://www.linkedin.com/in/tushar-bairi-89482b202/}{\underline{Linkedin}} $|$
+    \href{https://github.com/tushar-coin}{\underline{Github}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Dr BR Ambedkar National Institute of Technology}{Jalandhar, Punjab}
+      {Bachelor of Technology - Computer Science and Engineering }{2020- 2024}
+            % {Expected: July 2024}
+  \resumeSubHeadingListEnd
+  \vspace{-5pt}
+%-----------COMMUNITY AND LEADERSHIP-----------
+%-----------EXPERIENCE-----------
+\vspace{-10pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Amazon }{Feb 25 - Present}
+      {Software Engineer 1}{Amazon Lending Team(Backend and Infra)}
+      \vspace{-5pt}
+      \resumeItemListStart
+        \resumeItem{ Scaled Amazon Lending's billing infrastructure from US-only to support both US and EU regions saving 100+ hrs spent on mannual invoicing.  }
+        \resumeItem{ Improved service resilience by revamping API retry strategy across 30+ client systems, preventing retry storms. }   
+        \resumeItem{ Developed POC's for multiple ideas ranging from automation tools to lifecycle management software and presented them to stakeholders  } 
+        \resumeItem{ Used Rust to create llm powered cli tools to automated boiler plate code for non-tech.  }
+      \resumeItemListEnd
+      \vspace{.5ex}
+    \resumeSubheading
+      {Cvent India }{Jan 24 – Jan 25}
+      {Software Engineer }{Registration Team(Full stack) }
+      \vspace{-5pt}
+      \resumeItemListStart
+        \resumeItem{ Developed over 20 fully configurable and reusable widgets for the Client Registrations team, enabling easy integration into client websites and reducing development effort. }
+        \resumeItem{ Proposed and led the migration of legacy React.js services to Next.js during the development phase, leveraging server-side rendering (SSR) and static site generation (SSG)improving initial load performance by 30–40\% also leveraged FCP to improve user rentention.}
+        \resumeItem{ Improved UI testing by introducing selenium scripts saving 90\% of devs time during e2e testing for new feature release.  }
+        \resumeItem{ Replaced the old DAO implementation that directly interacted with SQL tables with a centralized orchestrator serving as the DAO layer between services and the database, improving modularity and saving at least 1 hour per new service onboarding. }
+      \resumeItemListEnd
+      \vspace{.5ex}
+    
+    
+      
+    % \resumeSubheading
+    %   {Google Developer Students Club ,NIT-J}{Sept 2021 – May 2022}
+    %   {Student Volunteer}{NIT Jalandhar}
+    %   \resumeItemListStart
+    %     \resumeItem{Utilised CP Skills to guide Juniors, Learned from peers about technologies like Blockchain and Cryptography.}
+    %     \resumeItem{Worked with Team in conducting On-campus workshops on \textbf{Web development \& Competitive Programming .}}
+    %     % \resumeItem{Job description/Award/Achievement 3}
+    %   \resumeItemListEnd
+    %   \vspace{-5pt}
+    %   \textbf{Quizzer \& Problem Setter at Quizzing Club NITJ} {~~~~~~~~~~~~~~~~~July 2021-Present} 
+\resumeSubHeadingListEnd
+
+
+% %-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading{\textbf{Distributed Task Processing System} $|$ \emph{Go, Kafka, Redis, PostgreSQL}}{Jan 2023 – Mar 2023}
+
+\resumeItemListStart
+\resumeItem{Built distributed task queue system handling 100K+ jobs/day using Kafka and Redis}
+\resumeItem{Optimized worker scheduling reducing task latency by 40\%}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+  % --------------------TECHNICAL SKILLS----------
+\section{Technical Skills}
+	\resumeSubHeadingListStart
+        \resumeSubItem{Languages: Go, Python}
+        \resumeSubItem{Technologies/Framework: Kafka, Redis, PostgreSQL}
+        \resumeSubHeadingListEnd
+% %
+\vspace{-5pt}
+\vspace{-7pt}
+% %-----------ACHIEVEMENTS-----------
+\section{Achivements}
+  \resumeSubHeadingListStart
+
+      \resumeItemListStart
+       \resumeItem{Received awards from amazon and cvent at multiple instances for outstanding performances and begin a team player}
+        \resumeItem{Rated in Top 2\% of \textbf{Leetcode} in a pool of 350000 users.}
+        \resumeItem{\textbf{Expert} on \textbf{Codeforces}, \textbf{Rating : 1611}}
+      \resumeItemListEnd
+      \vspace{-5pt}
+    \resumeItem{\textbf{Profiles :}
+    % \href{https://hub.docker.com/u/tusharbairi}{\ {DockerHub { }
+    \href{https://codeforces.com/profile/noob_tusharb}{\ {\textbf{Codeforces }}}}{}\href{https://leetcode.com/noob_tusharb/}{\ \textbf{Leetcode} }{} \href{https://auth.geeksforgeeks.org/user/tusharextra75/practice/}{\ {\textbf{Geeks For Geeks}}} 
+    \resumeSubHeadingListEnd
+    \vspace{-10pt}
+%-------------------------------------------
+\end{document}

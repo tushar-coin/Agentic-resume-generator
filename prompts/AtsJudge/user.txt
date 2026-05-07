@@ -1,0 +1,22 @@
+Evaluate the following resume against the job description.
+
+---
+
+### 📄 Job Description:
+{PASTE_JOB_DESCRIPTION_HERE}
+
+---
+
+### 👤 Resume:
+{PASTE_RESUME_HERE}
+
+---
+
+### 🎯 Instructions:
+- Perform ATS-style evaluation.
+- Follow the exact output format defined in the system prompt.
+- Be strict and realistic.
+- Highlight missing keywords clearly.
+- Provide actionable recommendations.
+
+---

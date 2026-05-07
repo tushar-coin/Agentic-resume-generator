@@ -1,0 +1,37 @@
+Job Description:
+{job_data}
+
+Selected Project Details:
+{selected_project}
+
+Extracted Skills:
+Languages: {languages}
+Technologies/Frameworks: {technologies}
+
+---
+
+TASK:
+Validate whether the project and skills are relevant to the job description.
+
+OUTPUT:
+Return ONLY this JSON:
+{{
+  "valid": true_or_false,
+  "issues": ["issue1", "issue2"]
+}}
+
+EVALUATION:
+- Check if project aligns with job role
+- Check if project technologies match job requirements
+- Check if extracted languages are actual programming languages
+- Check if extracted technologies are valid frameworks/tools
+- Flag any soft skills or generic terms
+- If alignment is good (>50% tech overlap), mark valid=true
+
+ISSUES TO FLAG:
+- "project_irrelevant": Project doesn't match job role
+- "low_tech_overlap": Project technology doesn't match job requirements
+- "invalid_languages": Non-programming items in languages
+- "invalid_technologies": Soft skills or generic terms in technologies
+- "missing_required_tech": Critical job technology not in selected project
+- "insufficient_skills": Too few skills extracted
